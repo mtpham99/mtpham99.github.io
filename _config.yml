@@ -47,6 +47,9 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 
+atom_feed:
+    path:
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -261,11 +264,15 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-sitemap
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-gist
   - jemoji
+  - jekyll-feed
+  - jekyll-sitemap
 
 
 # Archives
